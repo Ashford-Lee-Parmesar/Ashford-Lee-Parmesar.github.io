@@ -1,7 +1,9 @@
+import Navigation from "./components/navigation-bar";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="lg:max-w-[75%] lg:mx-auto">
+      <Navigation />
     </div>
   );
 }
