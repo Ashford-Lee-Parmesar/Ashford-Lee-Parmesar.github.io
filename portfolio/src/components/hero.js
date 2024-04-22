@@ -1,10 +1,10 @@
 import React from "react";
-import headshot from "../content/images/male_profile.svg"
+import headshot from "../content/images/character2.svg"
 
 const Hero = () => {
   return (
-    <hero>
-      <div className="p-6 m-6 flex flex-col lg:flex-row lg:justify-between">
+    <hero id="hero">
+      <div className="p-6 m-6 flex flex-col lg:flex-row lg:justify-between h-auto">
         <div className="text-white lg:w-2/4">
           <div className="text-4xl lg:text-7xl mb-12">
             I<span className="text-red-400">'</span>m Ashford Lee Parmesar
@@ -19,8 +19,8 @@ const Hero = () => {
           Where code meets creativity.
           </div>
         </div>
-        <div className="lg:w-2/4 flex justify-center items-center">
-          <img className="border-[10px] rounded-full lg:h-[400px] lg:w-[400px] w-[250px] h-[250px]" src={headshot} alt="" />
+        <div className="flex justify-center items-center">
+          <img id="image-blob" className="lg:h-[500px] lg:w-[500px] w-max h-[350px]" src={headshot} alt="" />
         </div>
       </div>
     </hero>

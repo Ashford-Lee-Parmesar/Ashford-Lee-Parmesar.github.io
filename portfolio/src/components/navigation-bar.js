@@ -10,7 +10,7 @@ const Navigation = () => {
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-semibold text-xl tracking-tight">
           <a
-            href="#responsive-header"
+            href="#hero"
             className="mt-4 lg:inline-block lg:mt-0 text-[#CCD0CF] hover:text-white mr-4"
           >
             ashford<span className="text-yellow-400">.</span>parmesar
@@ -32,7 +32,7 @@ const Navigation = () => {
       >
         <div className="text-sm flex flex-col lg:flex-grow lg:flex lg:flex-row lg:justify-end">
           <a
-            href="#responsive-header"
+            href="#about"
             className="mt-4 lg:inline-block lg:mt-0 text-[#CCD0CF] hover:text-white mr-4"
           >
             <span className="text-red-400">&lt;</span>about
