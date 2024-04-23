@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../content/images/character2.svg"
+import resume from '../content/resume.pdf'
 
 const Hero = () => {
   return (
@@ -17,6 +18,10 @@ const Hero = () => {
           </div>
           <div className="text-lg lg:text-xl text-[#CCD0CF] mb-12">
           Where code meets creativity.
+          </div>
+          <div className="flex flex-col items-center gap-4 lg:flex-row">
+            <a className="lg:text-3xl text-xl border border-blue-400 hover:text-blue-400 rounded p-2" href="#Contact">Contact Me.</a>
+            <a className="lg:text-3xl text-xl border border-red-400 hover:text-red-400 rounded p-2" href={resume} target="_blank" rel="noreferrer">Download Resume.</a>
           </div>
         </div>
         <div className="flex justify-center items-center">

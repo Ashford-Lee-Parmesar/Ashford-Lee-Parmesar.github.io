@@ -6,9 +6,9 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#06141B] p-6 m-6 lg:mb-[10rem]">
+    <nav className="sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#06141B] p-6 m-6 lg:mb-[8rem]">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">
+        <span className="font-semibold text-xl lg:text-2xl tracking-tight">
           <a
             href="#hero"
             className="mt-4 lg:inline-block lg:mt-0 text-[#CCD0CF] hover:text-white mr-4"
@@ -30,7 +30,7 @@ const Navigation = () => {
           isOpen ? "block" : "hidden"
         } w-full flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm flex flex-col lg:flex-grow lg:flex lg:flex-row lg:justify-end">
+        <div className="lg:text-lg text-sm flex flex-col lg:flex-grow lg:flex lg:flex-row lg:justify-end">
           <a
             href="#about"
             className="mt-4 lg:inline-block lg:mt-0 text-[#CCD0CF] hover:text-white mr-4"
@@ -39,7 +39,7 @@ const Navigation = () => {
             <span className="text-red-400">/&gt;</span>
           </a>
           <a
-            href="#responsive-header"
+            href="#experience"
             className="mt-4 lg:inline-block lg:mt-0 text-[#CCD0CF] hover:text-white mr-4"
           >
             <span className="text-yellow-400">&lt;</span>experience
